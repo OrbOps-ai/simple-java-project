@@ -1,0 +1,92 @@
+# Auto-generated .dockerignore
+# Language: Java
+# Framework: N/A
+# Structure: Standard
+
+# Git and version control
+.git
+.gitignore
+.gitattributes
+
+# CI/CD
+.github
+.gitlab-ci.yml
+.travis.yml
+Jenkinsfile
+
+# Documentation
+*.md
+docs/
+LICENSE
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Build tools
+.gradle/
+build/
+.m2/
+
+# IDE
+.classpath
+.project
+.settings/
+bin/
+
+# Development
+docker-compose.yml
+docker-compose.*.yml
+Dockerfile.dev
+.dockerignore
+
+# Testing and quality
+test/
+tests/
+spec/
+*.test.*
+*.spec.*
+.eslintrc*
+.prettierrc*
+jest.config.*
+cypress/
+.storybook/
+
+# Keep necessary files
+!package.json
+!package-lock.json
+!yarn.lock
+!pnpm-lock.yaml
+!requirements.txt
+!Gemfile
+!Gemfile.lock
+!pom.xml
+!build.gradle
+!go.mod
+!go.sum
